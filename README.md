@@ -1,1 +1,1 @@
-# rsschool-cv
+https://kiralong24.github.io/rsschool-cv/cv
