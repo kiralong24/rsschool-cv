@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Heebo';
+    src: url("assets/fonts/Heebo.zip");
+    font-weight: 100;
+  }
+@font-face {
+    font-family: 'Quicksand';
+    src: url("assets/fonts/Quicksand.zip");
+    font-weight: 300;
+  }
