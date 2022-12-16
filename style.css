@@ -3,8 +3,27 @@
     src: url("assets/fonts/Heebo.zip");
     font-weight: 100;
   }
-@font-face {
+
+  @font-face {
     font-family: 'Quicksand';
     src: url("assets/fonts/Quicksand.zip");
     font-weight: 300;
   }
+
+.sect-name {
+  font-family: Quicksand, sans-serif;
+  padding: 0 0 0 50px;
+}
+
+.photo {
+  padding: 0 0 0 50px;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+.list {
+  text-align: 1.5;
+}
