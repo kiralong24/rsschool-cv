@@ -1,0 +1,155 @@
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 134px;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    background: #EDF2EC;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    flex-wrap: nowrap;
+   align-items: baseline;
+    justify-content: space-between;
+    width: 1220px;
+    height: 50px;
+    left: 111px;
+    top: 42px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    position: absolute;
+    width: 452px;
+    height: 50px;
+    margin: 1px 109px 1px 770px;
+    padding: 0;
+    font-family: 'Inika', serif;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    position: absolute;
+    margin: 16px 1px 1px 1px;
+    padding: 0;
+    width: 100px;
+}
+
+.logo-text {
+    font-family: 'Inika', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.logo-img {
+    left: 20px;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.welcome {
+    position: absolute;
+    width: 1440px;
+    height: 532px;
+    left: 0px;
+    top: 134px;
+    background: #EDF2EC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.welcome-section {
+    position: absolute;
+    width: 1222px;
+    height: 407.36px;
+    left: 109px;
+    top: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.leafs {
+    position: absolute;
+    width: 448.8px;
+    height: 407.36px;
+}
+
+.welcome-section {
+    position: absolute;
+    width: 549px;
+    height: 340px;
+    left: 782px;
+    top: 98px;
+}
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    position: absolute;
+    width: 549px;
+    height: 340px;
+
+}
+
+.wegrow {
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+
+.greenplants {
+    color: #449a18
+}
+
+.wegrowdescription {
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+}
+
+.learnmore-button {
+    width: 155px;
+    height: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+}
