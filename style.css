@@ -165,3 +165,245 @@
     right: 680px;
     bottom: 50px;
 }
+
+.about {
+    background: #FFFFFF;
+    width: 1440px;
+    height: 666px;
+    left: 0px;
+    top: 666px;
+    position: absolute;
+}
+
+.about-section {
+    position: absolute;
+    width: 1222px;
+    height: 479px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-div {
+    position: absolute;
+    width: 605px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.gardeners {
+    position: absolute;
+    width: 463px;
+    height: 102px;
+    left: 109px;
+    top: 161px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+
+}
+
+.gardeners-text {
+    position: absolute;
+    width: 605px;
+    height: 208px;
+    left: 109px;
+    top: 303px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+
+.orange-text {
+    color: #E06733;
+}
+
+.houseplant1{
+    position: absolute;
+    width: 464px;
+    height: 479px;
+    left: 867px;
+    top: 93px;
+}
+
+.service{
+    position: absolute;
+    width: 1440px;
+    height: 1300px;
+    left: 0px;
+    top: 1332px;
+    background: #EDF2EC;
+}
+
+.services-content {
+    position: absolute;
+    width: 1007px;
+    height: 94px;
+    
+    top: 40px;
+}
+
+.projects {
+    position: absolute;
+    width: 306px;
+    height: 94px;
+    left: 109px;
+    top: 40px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.service-buttons {
+    position: absolute;
+    width: 559px;
+    height: 50px;
+    left: 557px;
+    top: 69px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.planting-button {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    width: 161px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.lawn-button {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    width: 161px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.gardens-button {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    width: 161px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.services {
+    position: absolute;
+    width: 1222px;
+    height: 955px;
+    left: 109px;
+    top: 224px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.service-item1 {
+    width: 330px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img1-text {
+    width: 330px;
+    height: 100px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first-text-1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+    width: 120px;
+    height: 24px;
+}
+
+.first-text-2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+}
+
+.first-text-3 {
+    width: 120px;
+    height: 24px;
+}
+
+.service-item2 {
+    width: 330px;
+    height: 450px;
+}
+
+.service-item3 {
+    width: 330px;
+    height: 450px;
+}
+
+.service-item4 {
+    width: 330px;
+    height: 450px;
+}
+
+.service-item5 {
+    width: 330px;
+    height: 450px;
+}
+
+.service-item6 {
+    width: 330px;
+    height: 450px;
+}
