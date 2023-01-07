@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     position: absolute;
     width: 100%;
@@ -5,7 +9,7 @@
     height: 134px;
     left: 0px;
     top: 0px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background: #EDF2EC;
 }
@@ -21,7 +25,7 @@
     height: 50px;
     left: 111px;
     top: 42px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -32,6 +36,11 @@
     margin: 1px 109px 1px 770px;
     padding: 0;
     font-family: 'Inika', serif;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
 }
 
 .navigation {
@@ -158,6 +167,14 @@
     line-height: 20px;
     border: 2px solid #E06733;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.learnmore-button:hover {
+    background: #E06733;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    color: #FFFFFF;
 }
 
 .leafs-img {
@@ -298,6 +315,14 @@
     width: 161px;
     height: 50px;
     box-sizing: border-box;
+    cursor: pointer;
+}
+
+.planting-button:hover {
+    color: #FFFFFF;
+    background: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
 }
 
 .lawn-button {
@@ -312,6 +337,14 @@
     width: 161px;
     height: 50px;
     box-sizing: border-box;
+    cursor: pointer;
+}
+
+.lawn-button:hover {
+    color: #FFFFFF;
+    background: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
 }
 
 .gardens-button {
@@ -326,6 +359,14 @@
     width: 161px;
     height: 50px;
     box-sizing: border-box;
+    cursor: pointer;
+}
+
+.gardens-button:hover {
+    color: #FFFFFF;
+    background: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
 }
 
 .services {
@@ -791,6 +832,14 @@
     text-align: center;
     color: #E06733;
     background: #FFFFFF;
+    cursor: pointer;
+}
+
+.contact-us:hover {
+    color: #FFFFFF;
+    background: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
 }
 
 .small-leafs {
