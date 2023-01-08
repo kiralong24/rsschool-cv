@@ -1,120 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/1d93fa0f25.js" crossorigin="anonymous"></script>
-  <title>CV</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="assets/img/1icon.ico">
-  <style>
-    body {
-      font-family: "Quicksand", sans-serif;
-      background-color: #bdd3cc;
-    }
-  </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inika&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/images/logo_vector_end.ico" type="image/x-icon">
+    <script src="/index.js"></script>
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#aboutme">About me</a></li>
-        <li><a href="#contacts">Contacts</a></li>
-        <li><a href="#education_skills">Education & Skills</a></li>
-        <li><a href="#workexp">Work Experience</a></li>
-        <li><a href="#activities">Activities</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="header">
+        <div class="navbar">
+            <nav class="nav">
+                <ul class="navigation">
+                    <li class="nav-link"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#welcome">About us</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#service">Service</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#prices">Price</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#contactss">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <img src="/assets/images/logo_vector_(2).png" class="logo-img" alt="plants-logo">
+                <div class="logo-text">Plants</div>
+            </div>
+        </div> 
+    </header>
 
-  <hr>
+    <main class="main">
+        <section class="welcome" id="welcome">
+            <div class="welcome-section">
+                <div class="leafs">
+                    <img src="/assets/images/leafs.png" class="leafs-img" alt="leafs-img">
+                </div>
+                <div class="welcome-text">
+                    <div class="wegrow">We grow <span class="greenplants">plants</span> and give you oxygen</div>
+                    <div class="wegrowdescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+                    <button class="learnmore-button">LEARN MORE</button>
+                </div>
+            </div>
+        </section>
 
-  <main>
-  <section id="aboutme">
-    <div class="photo">
-      <img width="250" height="300" src="/assets/img/myphoto.PNG" alt="myphoto">
-    <div class="name">
-      <h1>Kirill Dolgiy</h1>
-      <pre>"A journey of a thousand miles 
-                             begins with a single step"</pre>
-    </div>
-    </div>
-  </section>
-  <hr>
+        <section class="about" id="about">
+                <div class="about-section">
+                    <div class="about-us-div">
+                        <div class="gardeners">We are <span class="orange-text">professional experienced</span> gardeners</div>
+                        <div class="gardeners-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+                    <img class="houseplant1" src="/assets/images/houseplant_1.png" alt="houseplant">
+                    </div>
+                </div>
+        </section>
 
-  <section id="contacts">
-    <div>
-      <h2 class="sect-name">Contacts</h2>
-        <ul class="list">
-          <li><i class="fa-solid fa-location-dot"></i> Minsk, Belarus</li>
-          <li><i class="fa-solid fa-phone"></i> Phone: +375 29 832 97 77</li>
-          <li><i class="fa-regular fa-envelope"></i> E-mail: kirill.dolgy2000@mail.ru</li>
-          <li><i class="fa-regular fa-paper-plane"></i> Telegram: @ragnarekj</li>
-        </ul>
-    </div>
-  </section>
-  <hr>
+        <section class="service" id="service">
 
-  <section id="education_skills">
-    <div>
-      <h2 class="sect-name">Education</h2>
-        <ol class="list">
-          <li><a href="https://www.polessu.by/">Polessky state University</a>, Finance and Economics faculty, Finance and credit specialty (2017-2021).</li>
-          <li><a href="https://www.polessu.by/">Polessky state University</a>, Additional education faculty, Modern foreign language: foreign economic activity specialty (2019-2021).</li>
-        </ol>
-    </div>
-    <div>
-      <h2 class="sect-name">Skills</h2>
-        <ul class="list">
-          <li>Customer service.</li>
-          <li>Accounting, recordkeeping.</li>
-          <li>Microsoft Office (Word, PowerPoint, Excel, Access).</li>
-          <li>Russian (native), Belarusian (native), <b>English (B2).</b></li>
-          <li>HTML (basic), CSS (basic).</li>
-        </ul>
-    </div>
-  </section>
-  <hr>
+            <div class="services-content">
+                <div class="projects">Service and our projects</div>
+                <div class="service-buttons">
+                    <button class="planting-button">Planting</button>
+                    <button class="lawn-button">Lawn</button>
+                    <button class="gardens-button">Gardens</button>
+                </div>
+            </div>
 
-  <section id="workexp">
-    <div>
-      <h2 class="sect-name">Work Experience</h2>
-      <p>OJSC <a href="https://bnb.by/">"BNB-Bank"</a> (Nov 2020 – Nov 2021) Minsk, Belarus</p>
-      <p>Economist of the customer service department</p>
-        <ul class="list">
-          <li>Customer service;</li>
-          <li>Cusaintenance of working documentation and reporting;</li>
-          <li>Sales;</li>
-          <li>Opening/closing of the operation day.</li>
-        </ul>
-    </div>
-  </section>
-  <hr>
 
-  <section id="activities">
-    <div>
-      <h2 class="sect-name">Activities</h2>
-      <ul class="list">
-        <li>2nd place in the Gomel region Boxing championship among juniors born in 2000 – 2001, 2016, Gomel, Belarus</li>
-        <li>1st place in the open Boxing championship of GU ”Lelchitskaya DUSH”, 2015, Lelchitsy, Belarus</li>
-        <li>Football, basketball and volleyball player.</li>
-      </ul>
-    </div>
-  </section>
-  <hr>
-  </main>
+            <div class="services">
+                <div class="service-item1">
+                    <img class="first" src="/assets/images/first.png" alt="garden care">
+                    <div class="img1-text">
+                        <div class="first-text-1">Garden care</div>
+                        <div class="first-text-2">Lorem Ipsum has been the industry</div>
+                        <div class="first-text-3"></div>
+                    </div>
+                </div>
 
-  <footer class="footer">
-    <div class="container footer-container">
-      <div>© 2022 <i class="fa-brands fa-github"></i> <a href="https://github.com/kiralong24" class="github nav-link">kiralong24</a></div>
-      <a href="https://rs.school/js/" class="rss"></a>
-    </div>
-    <div><a href="https://rs.school/js/"><img src="assets/img/unnamed.jpg" width="50" 
-      height="50" alt="rslink"></a></div>
-  </footer>
+                <div class="service-item2">
+                    <img class="second" src="/assets/images/second.png" alt="planting">
+                    <div class="img2-text">
+                        <div class="second-text-1">Planting</div>
+                        <div class="second-text-2">Lorem Ipsum has been the industry</div>
+                        <div class="second-text-3"></div>
+                    </div>
+                </div>
+
+                <div class="service-item3">
+                    <img class="third" src="/assets/images/third.png" alt="lawn care">
+                    <div class="img3-text">
+                        <div class="third-text-1">Lawn care</div>
+                        <div class="third-text-2">Lorem Ipsum has been the industry</div>
+                        <div class="third-text-3"></div>
+                    </div>
+                </div>
+
+                <div class="service-item4">
+                    <img class="fourth" src="/assets/images/fourth.png" alt="planting2">
+                    <div class="img4-text">
+                        <div class="fourth-text-1">Planting</div>
+                        <div class="fourth-text-2">Lorem Ipsum has been the industry</div>
+                        <div class="fourth-text-3"></div>
+                    </div>
+                </div>
+
+                <div class="service-item5">
+                    <img class="fifth" src="/assets/images/fifth.png" alt="garden care2">
+                    <div class="img5-text">
+                        <div class="fifth-text-1">Garden care</div>
+                        <div class="fifth-text-2">Lorem Ipsum has been the industry</div>
+                        <div class="fifth-text-3"></div>
+                    </div>
+                </div>
+
+                <div class="service-item6">
+                    <img class="sixth" src="/assets/images/sixth.png" alt="planting3">
+                    <div class="img6-text">
+                        <div class="sixth-text-1">Planting</div>
+                        <div class="sixth-text-2">Lorem Ipsum has been the industry</div>
+                        <div class="sixth-text-3"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="prices" id="prices">
+            <div class="prices-wrapper">
+
+                <div class="prices-section">
+                    <div class="prices-text">Prices</div>
+                    <div class="prices-items">
+                        <div class="price-list">
+                            <div class="basics">
+                                <div class="basics1">Basics</div>
+                                <img class="accordion-btn" src="/assets/images/accordion_btn.png" alt="acc btn">
+                            </div>
+                            <div class="standard">
+                                <div class="standard1">Standard</div>
+                                <img class="accordion-btn" src="/assets/images/accordion_btn.png" alt="acc btn">
+                            </div>
+                            <div class="pro-care">
+                                <div class="pro-care1">Pro care</div>
+                                <img class="accordion-btn" src="/assets/images/accordion_btn.png" alt="acc btn">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="call-us-section">
+                    <div class="call-us-text">Our best <span class="green-gard">gardeners</span> are ready to help you</div>
+                    <button class="contact-us">Contact us</button>
+                    <img class="small-leafs" src="/assets/images/small-leafs.png" alt="small leafs">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contactss" id="contactss">
+            <div class="contactus">Contact us</div>
+            <img class="woman" src="/assets/images/contact_woman_1.png" alt="woman">
+            <div class="city-container">
+                <div class="city-acc-btn">City</div>
+                <img class="city-btn" src="/assets/images/accordion_btn.png" alt="acc btn">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            
+            <div class="links">
+                <div class="gh-2022">
+                    <div class="c">&copy;</div>
+                    <div class="year">2022</div>
+                    <div class="gh-link"><a href="https://github.com/kiralong24" class="ghlink">kiralong24</a></div>
+                </div>
+                <div class="rs-link"><a class="rslink" href="https://rs.school/js-stage0/">Rolling Scopes School</a></div>
+                <div class="social-nets">
+                    <div class="pi-link"><img class="pi" src="/assets/images/pi.png" alt="pi"></div>
+                    <div class="twi-link"><img class="twi" src="/assets/images/twi.png" alt="twi"></div>
+                    <div class="fb-link"><img class="fb" src="/assets/images/fb.png" alt="fb"></div>
+                    <div class="inst-link"><img class="inst" src="/assets/images/inst.png" alt="inst"></div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
 
 </body>
 </html>
