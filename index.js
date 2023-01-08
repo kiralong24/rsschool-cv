@@ -1,0 +1,1 @@
+console.log('self-assessment 63 points: \n1. 5 points \n2. 11 points \n3. 24 points \n4. 8 points \n5. 15 points')
